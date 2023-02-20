@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// implement heapSort()
+
+// implement heapify() function
 func heapify(arr []int, n, i int) {
     largest := i
     left := 2*i + 1
@@ -21,6 +24,7 @@ func heapify(arr []int, n, i int) {
     }
 }
 
+// actual heapSort()
 func heapSort(arr []int) []int {
     n := len(arr)
 
